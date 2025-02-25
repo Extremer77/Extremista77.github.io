@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const total = totalContainer.textContent;
         const url = `https://wa.me/5492645880367?text=Pedido:%0A${mensaje}%0ATotal: $${total}`;
         window.open(url, '_blank');
-    });
+ });
 
     cancelarButton.addEventListener('click', () => {
         carrito = [];

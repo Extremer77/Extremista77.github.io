@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
             plantaCard.classList.add('planta');
             const nombreImagen = planta.nombre.toLowerCase().replace(/ /g, '_');
             plantaCard.innerHTML = `
-                <img src="images/${nombreImagen}.jpg" alt="${planta.nombre}">
+                <img src="public/images/${nombreImagen}.jpg" alt="${planta.nombre}">
                 <h3>${planta.nombre}</h3>
                 <p class="precio">$${planta.precio.toFixed(2)}</p>
                 <p>Tipo: ${planta.tipo}</p>

@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let carrito = [];
     let plantas = [];
 
-    fetch('../src/data/plants.json')
+    fetch('src/data/plants.json')
         .then(response => response.json())
         .then(data => {
             plantas = data;

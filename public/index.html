@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivero Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Vivero Web</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#contacto"><i class="fas fa-phone"></i> Contacto</a></li>
+            <li><a href="#carrito"><i class="fas fa-shopping-cart"></i> Carrito (<span id="cantidad-carrito">0</span>)</a></li>
+            <li>
+                <input type="text" id="buscador" placeholder="Buscar planta...">
+                <button onclick="buscarPlanta()"><i class="fas fa-search"></i> Buscar</button>
+            </li>
+            <li id="volver-atras" style="display: none;">
+                <button onclick="volverAtras()"><i class="fas fa-arrow-left"></i> Volver Atrás</button>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="plantas">
+            <!-- Aquí se cargarán las tarjetas de las plantas -->
+        </section>
+        <section id="carrito">
+            <h2>Carrito de Compras</h2>
+            <div id="items-carrito"></div>
+            <p>Total: $<span id="total"></span></p>
+            <button id="comprar">Comprar</button>
+            <button id="cancelar">Cancelar</button>
+        </section>
+    </main>
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <div class="contacto-info">
+            <p><i class="fas fa-phone"></i> Teléfono: +54 9 2645261991</p>
+            <p><i class="fas fa-envelope"></i> Email: contacto@viveroweb.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Ubicación:</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2671.081493281341!2d-68.55018592535801!3d-31.497386400169944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzHCsDI5JzUwLjYiUyA2OMKwMzInNTEuNCJX!5e1!3m2!1ses-419!2sar!4v1740441801689!5m2!1ses-419!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "nombre": "Rosa China",
+        "tipo": "Exterior",
+        "cuidados": "Riego moderado, luz solar directa",
+        "precio": 10.00
+    },
+    {
+        "id": 2,
+        "nombre": "Penca",
+        "tipo": "Interior",
+        "cuidados": "Riego escaso, luz indirecta",
+        "precio": 15.00
+    },
+    {
+        "id": 3,
+        "nombre": "Limonero",
+        "tipo": "Exterior",
+        "cuidados": "Riego abundante, luz solar directa",
+        "precio": 25.00
+    },
+    {
+        "id": 4,
+        "nombre": "Orquídea",
+        "tipo": "Exterior",
+        "cuidados": "Riego escaso, luz solar directa",
+        "precio": 30.00
+    }
+
+]
